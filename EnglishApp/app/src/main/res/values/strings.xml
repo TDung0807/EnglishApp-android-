@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">AndroidApp</string>
+    <string name="greet_login">MEMBER LOGIN</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="btLogin">Login</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="not_a_member">Not a member?</string>
+    <string name="create_account">Create account</string>
+    <string name="title_activity_register">Register</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="member_sign_up">MEMBER SIGN UP</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_a_member">Already a member?</string>
+    <string name="how_are_you_today">How are you today?</string>
+    <string name="name">Complex Cat</string>
+    <string name="title_find">Find words</string>
+    <string name="your_goal">YOUR GOAL</string>
+    <string name="review_words">REVIEW WORDS</string>
+    <string name="leader_board">LEADER BOARD</string>
+    <string name="complex_cat">Complex Cat</string>
+    <string name="username">Username</string>
+    <string name="phone_number">Phone number</string>
+    <string name="_0367673199">0367673199</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="day_of_birth">Day Of Birth</string>
+    <string name="birthday">11-03-2003</string>
+    <string name="done">DONE</string>
+    <string name="setting">Setting</string>
+    <string name="account_setting">Account Setting</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="get_started">GET STARTED</string>
+
+</resources>

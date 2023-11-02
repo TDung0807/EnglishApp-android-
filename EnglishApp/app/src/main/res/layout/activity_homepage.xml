@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundBlue"
+    tools:context=".View.Homepage">
+
+    <!--TOOL BAR-->
+    <include
+        layout="@layout/header" />
+
+    <!--YOUR GOAL-->
+    <TextView
+        android:id="@+id/tv_yourGoal"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/your_goal"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/iv_today"
+        android:layout_width="170dp"
+        android:layout_height="94dp"
+        android:background="@drawable/radius_20"
+        android:backgroundTint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/tv_yourGoal"
+        app:layout_constraintStart_toStartOf="@id/tv_yourGoal" />
+
+    <ImageView
+        android:id="@+id/iv_thisMonth"
+        android:layout_width="170dp"
+        android:layout_height="94dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/radius_20"
+        app:layout_constraintTop_toBottomOf="@id/tv_yourGoal"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--REVIEW WORDS-->
+    <TextView
+        android:id="@+id/tv_reviewWords"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/review_words"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/tv_yourGoal"
+        app:layout_constraintTop_toBottomOf="@id/iv_today"/>
+
+    <ImageView
+        android:id="@+id/iv_reviewWords"
+        android:layout_width="340dp"
+        android:layout_height="94dp"
+        android:background="@drawable/radius_20"
+        android:backgroundTint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/tv_reviewWords"
+        app:layout_constraintStart_toStartOf="@id/tv_reviewWords" />
+
+    <!--LEADER BOARD-->
+    <TextView
+        android:id="@+id/tv_leaderBoard"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/leader_board"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/tv_yourGoal"
+        app:layout_constraintTop_toBottomOf="@id/iv_reviewWords"/>
+
+    <ImageView
+        android:id="@+id/iv_leaderBoard"
+        android:layout_width="340dp"
+        android:layout_height="94dp"
+        android:background="@drawable/radius_20"
+        android:backgroundTint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/tv_leaderBoard"
+        app:layout_constraintStart_toStartOf="@id/tv_leaderBoard" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
