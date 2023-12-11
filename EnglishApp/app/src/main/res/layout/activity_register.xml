@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroundBlue"
-    tools:context=".View.Register">
+    tools:context=".View.intro.Register">
     <ImageView
         android:id="@+id/logoLogin"
         android:layout_width="165dp"
@@ -116,14 +116,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/btnLogin"
+    <TextView
+        android:id="@+id/tv_login"
         android:layout_width="152dp"
         android:layout_height="28dp"
-        android:background="@drawable/border"
-        android:backgroundTint="@color/white"
+        android:background="@drawable/radius_10"
+        android:backgroundTint="@color/darkBlue"
         android:text="@string/btLogin"
-        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="13sp"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

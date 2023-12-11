@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroundBlue"
-    tools:context=".View.login">
+    tools:context=".View.intro.login">
 
     <ImageView
         android:id="@+id/logoLogin"
@@ -91,6 +91,7 @@
 
 
     <TextView
+        android:id="@+id/tv_forgotPass"
         android:layout_width="120dp"
         android:layout_height="20dp"
         android:layout_marginTop="20dp"
@@ -181,14 +182,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/btnRegister"
-        android:layout_width="152dp"
-        android:layout_height="28dp"
-        android:background="@drawable/border"
-        android:backgroundTint="@color/white"
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:background="@drawable/radius_10"
+        android:backgroundTint="@color/darkBlue"
         android:text="@string/create_account"
-        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="11sp"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

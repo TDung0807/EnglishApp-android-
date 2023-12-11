@@ -2,6 +2,6 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Add a transparent margin on the right side (adjust margin value as needed) -->
     <item
-        android:right="20dp"
+        android:right="10dp"
         android:drawable="@drawable/arrowstarted"/>
 </layer-list>
